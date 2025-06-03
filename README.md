@@ -1,6 +1,5 @@
 # Personal Portfolio
-
-# Pammi Narzary's Portfolio
+## **Portfolio Website**: [storied-paprenjak-d72682.netlify.app](https://storied-paprenjak-d72682.netlify.app/)
 
 Welcome to my personal portfolio repository! I'm **Pammi Narzary**, a passionate Electronics and Communication Engineering (ECE) student with a keen interest in web development and design. This portfolio is a reflection of my journey, skills, and projects in the tech world.
 
@@ -11,7 +10,6 @@ Welcome to my personal portfolio repository! I'm **Pammi Narzary**, a passionate
   - Frontend: HTML, CSS, JavaScript,Tailwind CSS,React.js,MySQL
   - Tools: Git, GitHub, VS Code
 - **Interests**: Web Development, UI/UX Design, Open Source Contribution
-- **Portfolio Website**: [storied-paprenjak-d72682.netlify.app](https://storied-paprenjak-d72682.netlify.app/)
 
 ## Projects
 
