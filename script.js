@@ -1,42 +1,38 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const projects = [
-      {
-        name: "Weather App",
-        description: "Fetches live weather using an API.",
-        link: "Weather-App/index.html"
-      },
-      {
-        name: "Tic-tac-toe",
-        description: "A mini game",
-        link: "Tic-tac_toe/index.html"
-      },
-      {
-        name: "Currency Converter",
-        description: "Convert the currency of one county to another",
-        link: "Currency Converter/index.html"
-      },
-      {
-        name: "Quiz App",
-        description: "Guess the correct answer",
-        link: "quiz app/index.html"
 
-      },
-      {
-        name: "To-Do List",
-        description: "Day to day timetable to make",
-        link: "To-do List/index.html"
+  const container = document.querySelector(".project-list");
+  if (!container) return;
 
-      }
-    ];
-  
-    const container = document.querySelector(".project-list");
-  
-    projects.forEach(project => {
-      const card = document.createElement("div");
-      card.innerHTML = `<h3>${project.name}</h3>
-                        <p>${project.description}</p>
-                        <a href="${project.link}" target="_blank">View</a>`;
-      container.appendChild(card);
-    });
+  projects.forEach((project, idx) => {
+    const article = document.createElement("article");
+    article.className = "project-card";
+
+  const img = document.createElement("img");
+  img.className = "project-img";
+  img.src = project.image || 'assets/default.png';
+  img.alt = `${project.name} screenshot`;
+  img.loading = 'lazy';
+
+  const info = document.createElement("div");
+  info.className = "project-info";
+
+  const title = document.createElement("h3");
+  title.id = `proj-title-${idx}`;
+  title.textContent = project.name;
+
+    const desc = document.createElement("p");
+    desc.id = `proj-desc-${idx}`;
+    desc.textContent = project.desc;
+
+    const link = document.createElement("a");
+    link.href = project.link;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = "View project";
+    link.setAttribute("aria-label", `View project: ${project.name}`);
+
+    info.append(title, desc, link);
+    article.append(title, desc, link);
+    container.appendChild(article);
   });
-  
+});
