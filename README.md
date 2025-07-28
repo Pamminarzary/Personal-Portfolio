@@ -1,5 +1,5 @@
 # Personal Portfolio
-## **Portfolio Website**: [storied-paprenjak-d72682.netlify.app](https://storied-paprenjak-d72682.netlify.app/)
+## **Portfolio Website**: [https://marvelous-nasturtium-c9cd00.netlify.app/](https://marvelous-nasturtium-c9cd00.netlify.app/)
 
 Welcome to my personal portfolio repository! I'm **Pammi Narzary**, a passionate Electronics and Communication Engineering (ECE) student with a keen interest in web development and design. This portfolio is a reflection of my journey, skills, and projects in the tech world.
 
