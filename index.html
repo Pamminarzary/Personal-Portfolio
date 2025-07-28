@@ -1,60 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pammi Narzary | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Pammi Narzary</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pammi Narzary | Portfolio</title>
+  <meta name="description" content="Pammi Narzary – Web Developer, Designer & Tech Enthusiast. Explore projects, skills, and contact information." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Pammi Narzary</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://drive.google.com/file/d/1gmx_Csm83AWhtVqRWo8f6rw_MtFgBMgu/view?usp=sharing">CV</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="hero">
-      <h2>Hello, I'm Pammi Narzary</h2>
-      <p>Web Developer | Designer | Tech Enthusiast</p>
-    </section>
+  <section id="hero" class="hero">
+    <h2>Hello, I'm <span class="highlight">Pammi Narzary</span></h2>
+    <p>Web Developer | Designer | Tech Enthusiast</p>
+  </section>
 
-    <div class="imgSection">
-      <img src="developer.png" alt="developer" />
-      <img src="image.png" alt="image" />
-    </div>
+  <section class="img-section">
+    <img src="developer.png" alt="Pammi coding at a laptop" />
+    <img src="image.png" alt="Creative graphic design example" />
+  </section>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Enthusiastic and detail-oriented B.Tech (ECE) student with experience in
-        HTML,CSS,Javascript with problem solving skills. Passionate about
-        building innovative, energy-efficient solutions and always eager to
-        learn new technologies.
-      </p>
-    </section>
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a forward-thinking B.Tech (Electronics & Communication Engineering) student with a flair for building sleek, responsive web applications using HTML, CSS, and JavaScript. 
+    <br><br>
+      <span class="bold-line">
+        My strengths include:
+      </span>
+    <ul>
+      Creating energy-efficient and innovative solutions that merge hardware and software.<br>
+      Offering strong problem-solving skills honed through academic projects and self-driven challenges.<br>
+      Bringing a proactive attitude toward learning emerging technologies and tools.
+    </ul>
+  <br>
+      <span class="bold-line">
+         You’ll find on my site projects that showcase:
+      </span>
+    <ul> 
+      Web applications with modern UI/UX design.<br>
+      Real-world implementations that bridge circuit design with frontend code.<br>
+      My adaptability to new frameworks, libraries, and methodologies.
+    </ul>
+  <br>
+      I’m excited to connect with teams and mentors who value innovation, sustainability, and impactful technological solutions.
+    </p>
+  </section>
 
-    <section id="projects">
-      <h2>My Projects</h2>
-      <div class="project-list">
-        
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+
+    <article class="project-card">
+      <img src="Weather.png" alt="Weather app screenshot" class="project-img" loading="lazy">
+      <div class="project-info">
+        <h3>Weather App</h3>
+        <p>Fetches live weather using an API with modern UI and smooth transitions.</p>
+        <a href="Weather-App/index.html" target="_blank" rel="noopener noreferrer">View Project</a>
       </div>
-    </section>
+    </article>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: pamminarzary03@gmail.com</p>
-      <p>Email: pamminarzary_ec22a17_58@dtu.ac.in</p>
-      <p><a href="https://www.linkedin.com/in/pammi-narzary-383b7a256">LinkedIn</a></p>
-      <p><a href="https://github.com/Pamminarzary">GitHub</a></p>
-    </section>
+    <article class="project-card">
+      <img src="tic-tac-toe.png" alt="Tic-tac-toe game screenshot" class="project-img" loading="lazy">
+      <div class="project-info">
+        <h3>Tic‑Tac‑Toe</h3>
+        <p>A classic tic‑tac‑toe game with intelligent win logic.</p>
+        <a href="Tic-tac_toe/index.html" target="_blank" rel="noopener noreferrer">View Project</a>
+      </div>
+    </article>
 
-    <footer>
-      <p>© 2025 Pammi Narzary. All rights reserved.</p>
-    </footer>
+    <article class="project-card">
+      <img src="currency.png" alt="Currency-Convertor screenshot" class="project-img" loading="lazy">
+      <div class="project-info">
+        <h3>Currency-Convertor</h3>
+        <p>Converts the currency of one country to another.</p>
+        <a href="Currency Converter/index.html" target="_blank" rel="noopener noreferrer">View Project</a>
+      </div>
+    </article>
 
-    <script src="script.js"></script>
-  </body>
+    <article class="project-card">
+      <img src="quiz.png" alt="Tic-tac-toe game screenshot" class="project-img" loading="lazy">
+      <div class="project-info">
+        <h3>Quiz-App</h3>
+        <p>Guess the correct answer.</p>
+        <a href="quiz app/index.html" target="_blank" rel="noopener noreferrer">View Project</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img src="to-do.png" alt="Tic-tac-toe game screenshot" class="project-img" loading="lazy">
+      <div class="project-info">
+        <h3>To-Do List</h3>
+        <p>Day‑to‑day task organiser.</p>
+        <a href="To-do list/index.html" target="_blank" rel="noopener noreferrer">View Project</a>
+      </div>
+    </article>
+
+    
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <address>
+      <p>Email: <a href="mailto:pamminarzary03@gmail.com">pamminarzary03@gmail.com</a></p>
+      <p>DTU Email: <a href="mailto:pamminarzary_ec22a17_58@dtu.ac.in">pamminarzary_ec22a17_58@dtu.ac.in</a></p>
+      <p><a href="https://www.linkedin.com/in/pammi-narzary-383b7a256" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+      <p><a href="https://github.com/Pamminarzary" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    </address>
+  </section>
+
+  <footer>
+    <p>© 2025 Pammi Narzary. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
 </html>
